@@ -1,0 +1,207 @@
+.menu p {
+    padding: 15px;
+    border: 0;
+    background-color: red;
+  }
+  .menu p .las {
+    font-size: 30px;
+    color: white;
+  }
+  
+  .menu a {
+    padding: 20px;
+    text-decoration: none;
+    color: black;
+  }
+  
+  .head {
+    justify-content: space-between;
+  }
+  
+  .bg-image {
+    background-image: url("https://static.wixstatic.com/media/9ba5d5_45ce3216545d4df4b74e12107204dddf~mv2_d_7360_4912_s_4_2.jpg/v1/fit/w_1000%2Ch_1000%2Cal_c%2Cq_80,enc_auto/file.jpg");
+    background-size: 100%;
+    width: 100%;
+    height: 500px;
+  }
+  .bg-image h1, .bg-image p {
+    color: white;
+  }
+  .bg-image h1 {
+    font-size: 60px;
+  }
+  .bg-image .text {
+    padding: 120px 0;
+  }
+  
+  .about-title h2 {
+    font-size: 40px;
+  }
+  
+  .img {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+  }
+  .img img {
+    margin: 20px auto;
+  }
+  
+  .photo {
+    border: 1px solid rgba(252, 203, 213, 0.3);
+    box-shadow: 0px 40px 70px 0px rgba(245, 14, 60, 0.3);
+  }
+  
+  .bg-red {
+    background-color: red;
+    width: 100%;
+    padding: 20px;
+  }
+  .bg-red h1 {
+    color: white;
+    font-size: 45px;
+    padding: 80px 0 0 0;
+  }
+  .bg-red p {
+    color: white;
+  }
+  .bg-red input {
+    background-color: transparent;
+  }
+  .bg-red input:hover {
+    border: 1px solid rgb(117, 117, 223);
+  }
+  .bg-red button {
+    padding: 15px 30px;
+    border: 0;
+    border-radius: 30px;
+  }
+  
+  ::-moz-placeholder {
+    color: white;
+  }
+  
+  ::placeholder {
+    color: white;
+  }
+  
+  .js-btwn {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .photos p {
+    color: red;
+  }
+  .photos .img-text{
+    position: relative;
+    color: white;
+    background-color: red;
+    top: -40px;
+    width: 160px;
+
+  }
+  
+  .api-img {
+    overflow: hidden;
+    transition: 0.5s;
+  }
+  .api-img img {
+    overflow: hidden;
+  }
+  .api-img img:hover {
+    transform: scale(1.2);
+  }
+  
+  .bg {
+    background-image: url("https://post.healthline.com/wp-content/uploads/2020/08/man-deadlift-1200x628-facebook-1200x628.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    color: white;
+  }
+  .bg .txt {
+    padding: 100px 0;
+  }
+  .bg .txt button {
+    background-color: rgb(224, 6, 6);
+    color: white;
+    border: 0;
+    border-radius: 22px;
+    padding: 10px 20px;
+  }
+  
+  .icon {
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+    margin-left: 10px;
+    text-align: center;
+  }
+  .icon .las, .icon .lab {
+    font-size: 35px;
+    padding: 10px 0;
+  }
+  .end{
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  @media(max-width:860px){
+    .text h1{
+        font-size: 40px;
+    }
+    .about-title h2{
+        font-size: 30px;
+    }
+    .bg-red h1{
+        font-size: 35px;
+    }
+    .images h2{
+        font-size: 25px;
+    }
+}
+@media(max-width:620px){
+    .text h1{
+        font-size: 27px;
+    }
+    .text p{
+        font-size: 15px;
+    }
+    .about-title h2{
+        font-size: 23px;
+    }
+    .about-title p{
+        font-size: 15px;
+    }
+    .bg-red h1{
+        font-size: 27px;
+    }
+    .bg-red p{
+        font-size: 14px;
+    }
+    .images h2{
+        font-size: 20px;
+    }
+    .images p{
+        font-size: 14px;
+    }
+}
+
+@media(max-width:680px){
+    .txt h1{
+        font-size: 22px;
+    }
+    .txt p{
+        font-size: 13px;
+    }
+    .txt button{
+        font-size: 12px;
+    }
+}
+@media(max-width:490px){
+    .txt{
+        padding: 0;
+    }
+}
